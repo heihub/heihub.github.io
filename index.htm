@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8"> 
+        <meta name="description" content="骚虎提醒页（旧）">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>骚虎提醒页</title>
+		<link rel="stylesheet" type="text/css" href="/css/index.css?v=55" />
+      <script>
+				var _hmt = _hmt || [];
+              (function() {
+				window.onload = function () {
+        
+	        //判断终端
+					var u = navigator.userAgent;
+					var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1;        //android终端 
+					var isiOS = u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);                      //ios
+ 
+					if (isiOS) {
+						document.getElementById("appIos").style.display = "block";
+						document.getElementById("appAndroid").style.display = "none";
+						document.getElementById("androidFabu").style.display = "none";
+					} else {
+						document.getElementById("appIos").style.display = "none";
+						document.getElementById("appAndroid").style.display = "block";
+						document.getElementById("androidFabu").style.display = "block";
+					}
+				}
+		</script>
+		
+	</head>
+
+	<body>
+		<div class="centent">
+			<h1><img src="/img/logo-m.png" alt="黑虎逼视频"><span>温馨提醒</span></h1>
+			<h5>请前往我们的最新网址<a href="https://heihub8.com"><img class="irc_mi" src="/img/new-gif-icon-29.jpg" alt="" />heihub8.com</a> 此域名即将停用,建议保存最新网址为书签,防止丢失。</h5>
+			<div class="liji_qianwan">
+				<a href="https://heihub8.com">立即前往</a>
+			</div>
+			<div class="xiazai_APP">
+				<p>或使用本站APP，享受急速通道，播放不卡顿</p>
+				<div id="appAndroid">
+					<a href="#">安卓APP下载</a>
+				</div>
+				<div id="appIos" style="display: none;">
+					<a href="#">苹果APP下载</a>
+				</div>
+			</div>
+			<div class="zhanwei_dv"></div>
+			<div class="xiazai_APP" id="androidFabu">
+				<p>或使用本站域名发布器,免费获取最新域名,无需频繁添加书签</p>
+				<div id="appAndroid">
+					<a href="android/heihub_v1.0.0.apk">安卓域名发布器</a>
+				</div>
+			</div>
+		</div>
+		<div class="fabuwzngzhi">
+			如果您觉得保存的页面太多了，请保存我们的
+			<a href="https://saoji8.com">发布网址</a>，访问最新地址，访问不丢失
+		</div>
+
+	</body>
+
+</html>

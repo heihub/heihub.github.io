@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: url(/img/pc_bg.png) no-repeat top center;
+  height: 100vh; }
+  body .centent {
+    margin: 50px auto 20px;
+    width: 100%; }
+    body .centent h1 {
+      font-size: 40px;
+      color: #b91919;
+      margin: 0 auto 30px;
+      text-align: center; }
+      body .centent h1 span {
+        display: block; }
+    body .centent h5 {
+      text-align: center;
+      color: #1b1f20;
+      line-height: 90px;
+      font-size: 24px; }
+      body .centent h5 a {
+        color: #cc3433;
+        font-weight: 700;
+        font-size: 50px; }
+        body .centent h5 a img {
+          display: inline-block;
+          width: 100px; }
+        body .centent h5 a .irc_mi {
+          background-color: rgba(0, 0, 0, 0);
+          -webkit-background-size: 21px 21px;
+          border: 0;
+          vertical-align: middle; }
+    body .centent .liji_qianwan {
+      margin: 0 auto;
+      border-radius: 5px;
+      font-size: 25px;
+      height: 40px;
+      line-height: 40px;
+      padding: 5px 10px;
+      text-align: center;
+      font-weight: 700;
+      width: 200px;
+      letter-spacing: 15px;
+      background-color: #cc3433; }
+      body .centent .liji_qianwan a {
+        color: #fff;
+        text-decoration: none; }
+  body .xiazai_APP {
+    -webkit-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    margin: 60px auto;
+    padding: 10px 0 10px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.5); }
+    body .xiazai_APP p {
+      text-align: center;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 50px; }
+    body .xiazai_APP div {
+      padding: 0;
+      width: 130px;
+      height: 35px;
+      line-height: 35px;
+      font-size: 16px;
+      margin: 5px auto;
+      text-align: center;
+      border: 1px solid #d46456; }
+      body .xiazai_APP div a {
+        color: #d46456;
+        text-decoration: none; }
+  body .zhanwei_dv {
+    width: 100%;
+    height: 0px; }
+  body .fabuwzngzhi {
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    line-height: 120px;
+    font-size: 25px;
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    bottom: 0;
+    left: 0; }
+    body .fabuwzngzhi a {
+      text-decoration: none;
+      color: #fff;
+      background: #cc3433;
+      border-radius: 4px;
+      padding: 0 10px;
+      height: 40px;
+      line-height: 40px;
+      display: inline-block;
+      cursor: pointer; }
+
+@media (max-width: 1250px) {
+  body .centent h5 {
+    font-size: 18px; } }
+
+@media (max-width: 1100px) {
+  body .centent {
+    width: 90%; }
+  body .centent h5 {
+    line-height: 60px; }
+  body .xiazai_APP p {
+    font-size: 20px;
+    line-height: 50px; }
+  body .fabuwzngzhi {
+    font-size: 20px; } }
+
+@media (max-width: 768px) {
+  .zhanwei_dv {
+    width: 100%;
+    height: 80px !important; }
+  body .centent h5 a {
+    font-size: 25px;
+    display: block; }
+  body h1 {
+    font-size: 30px; }
+  body {
+    background: url(/img/h5.png) no-repeat top center;
+    background-size: 100%;
+    height: 100vh; }
+  body .centent {
+    margin: 20px auto 80px;
+    width: 90%; }
+  body .centent h5 {
+    line-height: 40px;
+    font-size: 20px; }
+  body .centent .liji_qianwan {
+    margin: 20px auto; }
+  body .xiazai_APP {
+    width: 100%;
+    margin: 20px auto; }
+  body .xiazai_APP p {
+    font-size: 16px;
+    line-height: 18px; }
+  body .fabuwzngzhi {
+    padding: 5px 10px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 32px;
+    font-size: 18px;
+    height: 80px;
+    left: 0; } }
+
+@media (max-width: 380px) {
+  body .xiazai_APP p {
+    font-size: 14px; }
+  body .xiazai_APP div {
+    margin: 5px auto;
+    width: 90px;
+    font-size: 14px;
+    padding: 2px 0; }
+  body .fabuwzngzhi {
+    font-size: 14px; } }
+
+@media (max-width: 330px) {
+  body .centent h5 {
+    font-size: 14px;
+    line-height: 30px; }
+  body .xiazai_APP p {
+    font-size: 12px;
+    line-height: 50px; }
+  body .centent h1 {
+    font-size: 25px;
+    color: #b91919;
+    margin: 0 auto 10px;
+    text-align: center; }
+  body .centent .liji_qianwan {
+    margin: 10px auto; } }
