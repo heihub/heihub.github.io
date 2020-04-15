@@ -10,4 +10,4 @@
 
 -
 
-:e-mail: __邮箱联系方式: heihubdizhi@gmail.com （以上地址无法访问请发送任意内容获取最新地址）__
+:e-mail: __最新地址邮箱获取方式: heihubdizhi@gmail.com （以上地址无法访问请发送任意内容获取最新地址）__
