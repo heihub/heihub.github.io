@@ -1,79 +1,57 @@
 <!DOCTYPE html>
-<html>
-
-	<head>
-		<meta charset="UTF-8"> 
-        <meta name="description" content="heihub提醒页">
-		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-		<title>HeiHub黑虎逼提醒页</title>
-		<link rel="stylesheet" type="text/css" href="/css/index.css" />
-	<script>
-		var _hmt = _hmt || [];
-      (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://v1.cnzz.com/z_stat.php?id=1278295040&web_id=1278295040";
-        var s = document.getElementsByTagName("script")[0]; 
-        s.parentNode.insertBefore(hm, s);
-      })();
-</script>
-      <script>
-				var _hmt = _hmt || [];
-              (function() {
-		      var hm = document.createElement("script");
-                hm.src = "https://v1.cnzz.com/z_stat.php?id=1278295040&web_id=1278295040";
-                var s = document.getElementsByTagName("script")[0]; 
-                s.parentNode.insertBefore(hm, s);
-              })();
-				window.onload = function () {
-        
-	        //判断终端
-					var u = navigator.userAgent;
-					var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1;        //android终端 
-					var isiOS = u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);                      //ios
- 
-					if (isiOS) {
-						document.getElementById("appIos").style.display = "block";
-						document.getElementById("appAndroid").style.display = "none";
-						document.getElementById("androidFabu").style.display = "none";
-					} else {
-						document.getElementById("appIos").style.display = "none";
-						document.getElementById("appAndroid").style.display = "block";
-						document.getElementById("androidFabu").style.display = "block";
-					}
-				}
-		</script>
-		
-	</head>
-
-	<body>
-		<div class="centent">
-			<h1><img src="/img/logo_m_f.png" alt="黑虎逼视频"><span>温馨提醒</span></h1>
-			<h5>请前往我们的最新网址<a href="http://heihub8.com"><img class="irc_mi" src="/img/new-gif-icon-29.jpg" alt="" />heihub8.com</a> 此域名即将停用,建议保存最新网址为书签,防止丢失。</h5>
-			<div class="liji_qianwan">
-				<a href="http://heihub8.com">立即前往</a>
-			</div>
-			<div class="xiazai_APP">
-				<p>或使用本站APP，享受急速通道，播放不卡顿</p>
-				<div id="appAndroid">
-					<a href="#">安卓APP下载</a>
-				</div>
-				<div id="appIos" style="display: none;">
-					<a href="#">苹果APP下载</a>
-				</div>
-			</div>
-			<div class="zhanwei_dv"></div>
-			<div class="xiazai_APP" id="androidFabu">
-				<p>使用本站域名发布器,免费获取最新域名,无需添加书签</p>
-				<div id="appAndroid">
-					<a href="android/heihub_v1.0.0.apk">域名发布器</a>
-				</div>
-			</div>
-		</div>
-		<div class="fabuwzngzhi">
-			如果您觉得保存的页面太多了，请保存我们的
-			<a href="https://saoji8.com">发布网址</a>，访问最新地址，访问不丢失
-		</div>
-
-	</body>
+<html lang="zh-cn">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>
+            最新地址发布页
+        </title>
+        <meta name="keywords" content="&#x9999;&#x6E2F;&#x4E09;&#x7EA7;&#x7247;&#x7535;&#x5F71;,&#x4F26;&#x7406;&#x4E09;&#x7EA7;&#x7247;,&#x5FEB;&#x64AD;&#x4E09;&#x7EA7;&#x7247;,&#x4E09;&#x7EA7;&#x7247;&#x5FEB;&#x64AD;,&#x6210;&#x4EBA;&#x4E09;&#x7EA7;&#x7247;&#x7535;&#x5F71;, &#x9EC4;&#x8272;&#x4E09;&#x7EA7;&#x7247;&#x6BDB;&#x7247;, &#x514D;&#x8D39;&#x7535;&#x5F71;&#x4E09;&#x7EA7;&#x7247;, &#x56FD;&#x4EA7;&#x7CBE;&#x54C1;&#x9999;&#x8549;&#x5728;&#x7EBF;&#x89C2;&#x770B;, &#x56FD;&#x4EA7;&#x72E0;&#x72E0;&#x72E0;&#x7684;&#x5728;&#x556A;&#x7EBF;&#x9999;&#x8549;, &#x4E9A;&#x6D32;&#x56FD;&#x4EA7;&#x4E2D;&#x6587;&#x5728;&#x7EBF;&#x89C6;&#x9891;&#x514D;&#x8D39;, &#x56FD;&#x4EA7;&#x5728;&#x7EBF;&#x7CBE;&#x54C1;&#x4E9A;&#x6D32;&#x89C6;&#x9891;&#x5728;&#x7EBF;,&#x56FD;&#x4EA7;&#x514D;&#x8D39;&#x89C6;&#x9891;&#x7CBE;&#x54C1;&#x89C6;&#x9891;, &#x4E9A;&#x6D32;&#x56FD;&#x4EA7;&#x7CBE;&#x54C1;&#x9AD8;&#x6E05;&#x5728;&#x7EBF;" />
+        <meta name="description" content="&#x9999;&#x6E2F;&#x4E09;&#x7EA7;&#x7247;&#x7535;&#x5F71;,&#x4F26;&#x7406;&#x4E09;&#x7EA7;&#x7247;,&#x5FEB;&#x64AD;&#x4E09;&#x7EA7;&#x7247;,&#x4E09;&#x7EA7;&#x7247;&#x5FEB;&#x64AD;,&#x6210;&#x4EBA;&#x4E09;&#x7EA7;&#x7247;&#x7535;&#x5F71;, &#x9EC4;&#x8272;&#x4E09;&#x7EA7;&#x7247;&#x6BDB;&#x7247;, &#x514D;&#x8D39;&#x7535;&#x5F71;&#x4E09;&#x7EA7;&#x7247;, &#x56FD;&#x4EA7;&#x7CBE;&#x54C1;&#x9999;&#x8549;&#x5728;&#x7EBF;&#x89C2;&#x770B;, &#x56FD;&#x4EA7;&#x72E0;&#x72E0;&#x72E0;&#x7684;&#x5728;&#x556A;&#x7EBF;&#x9999;&#x8549;, &#x4E9A;&#x6D32;&#x56FD;&#x4EA7;&#x4E2D;&#x6587;&#x5728;&#x7EBF;&#x89C6;&#x9891;&#x514D;&#x8D39;, &#x56FD;&#x4EA7;&#x5728;&#x7EBF;&#x7CBE;&#x54C1;&#x4E9A;&#x6D32;&#x89C6;&#x9891;&#x5728;&#x7EBF;,&#x56FD;&#x4EA7;&#x514D;&#x8D39;&#x89C6;&#x9891;&#x7CBE;&#x54C1;&#x89C6;&#x9891;, &#x4E9A;&#x6D32;&#x56FD;&#x4EA7;&#x7CBE;&#x54C1;&#x9AD8;&#x6E05;&#x5728;&#x7EBF;" />
+        <style type="text/css">
+            body { background: #f2f2f2; text-align: center; } h2 { } small { color:
+            #999; }
+        </style>
+    </head>
+    
+    <body>
+        <h2>
+            正在为你跳转最新可用的【HeiHub】访问域名，请稍候(
+            <span id="seconds">
+                3
+            </span>
+            ).....
+        </h2>
+        <p>
+            <small>
+                防止使用域名屏蔽，请访问网站后收藏此页面或记住本站地址索取邮箱：heihubcom@gmail.com
+            </small>
+        </p>
+        <script type="text/javascript">
+            var randUrl = 'https://www.heihub.pw';
+            var secondElem = document.getElementById('seconds');
+            var seconds = secondElem.textContent;
+            var timedFun = function() {
+                if (seconds > 1) {
+                    secondElem.textContent = --seconds;
+                    setTimeout(function() {
+                        timedFun();
+                    },
+                    1000);
+                } else {
+                    location.href = randUrl;
+                }
+            };
+            setTimeout(function() {
+                timedFun();
+            },
+            1000);
+        </script>
+        <center>
+            
+        </center>
+    
+       
+    </body>
 
 </html>
